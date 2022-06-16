@@ -5,15 +5,15 @@ public class TaskOne {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        print("Введите число: ");
+        print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ");
 
         try {
             int num = in.nextInt();
             if (num > 7) {
-                print("Привет");
+                print("РџСЂРёРІРµС‚");
             }
         } catch (InputMismatchException e) {
-            print("Введено некорректное число.");
+            print("Р’РІРµРґРµРЅРѕ РЅРµРєРѕСЂСЂРµРєС‚РЅРѕРµ С‡РёСЃР»Рѕ.");
         }
     }
 
