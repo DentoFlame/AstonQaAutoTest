@@ -4,11 +4,11 @@ import java.util.Scanner;
 public class TaskThree {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        print("Введите числовой массив через \nзапятую, без пробелов, в формате: 2,5,3,1 : ");
+        print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»РѕРІРѕР№ РјР°СЃСЃРёРІ С‡РµСЂРµР· \nР·Р°РїСЏС‚СѓСЋ, Р±РµР· РїСЂРѕР±РµР»РѕРІ, РІ С„РѕСЂРјР°С‚Рµ: 2,5,3,1 : ");
         String input = in.next();
         String[] str = input.split(",");
         Integer[] mass = new Integer[str.length];
-        print("Введенный массив: " + Arrays.toString(str) + "\n");
+        print("Р’РІРµРґРµРЅРЅС‹Р№ РјР°СЃСЃРёРІ: " + Arrays.toString(str) + "\n");
         try {
             for (int i = 0; i < str.length; i++) {
                 mass[i] = Integer.parseInt(str[i]);
@@ -17,7 +17,7 @@ public class TaskThree {
                 }
             }
         } catch (NumberFormatException e) {
-            print("Некорректный формат массива");
+            print("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ С„РѕСЂРјР°С‚ РјР°СЃСЃРёРІР°");
         }
 
     }

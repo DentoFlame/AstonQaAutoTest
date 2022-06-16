@@ -4,13 +4,13 @@ import java.util.Scanner;
 public class TaskTwo {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        print("Введите имя: ");
+        print("Р’РІРµРґРёС‚Рµ РёРјСЏ: ");
         String strinput = in.next();
-            String strexpected = "Вячеслав";
+            String strexpected = "Р’СЏС‡РµСЃР»Р°РІ";
             if (strinput.equals(strexpected)){
-                print("Привет, " + strinput);
+                print("РџСЂРёРІРµС‚, " + strinput);
             } else {
-                print("Нет такого имени");
+                print("РќРµС‚ С‚Р°РєРѕРіРѕ РёРјРµРЅРё");
             }
     }
 
